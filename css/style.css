@@ -21,7 +21,7 @@ header {
 
 .container {
   max-width: 1200px;
-  width: 90%;
+  width: 70%;
   height: 100%;
   margin: auto;
 }
@@ -56,10 +56,13 @@ header ul.menu li {
 
 main .container {
   margin-top: 30px;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
  main .article {
   width: 300px;
+  margin:0 10px 30px;
  }
 
  main .article .card {
@@ -121,6 +124,20 @@ main .container {
   main .article .info .after {
     text-decoration: line-through;
   }
+
+  main .card img.under {
+    display: none;
+  }
+
+  main .article .card:hover img.under {
+    display:block;
+  }
+
+  main .article .card .heart:hover {
+    color: #ff0000;
+  }
+
+
 
 
 
