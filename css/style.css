@@ -129,7 +129,7 @@ main .container {
     display: none;
   }
 
-  main .article .card:hover img.under {
+  main .article .card .image:hover img.under {
     display:block;
   }
 
