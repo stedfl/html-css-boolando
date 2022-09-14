@@ -9,18 +9,19 @@ body {
 }
 
 /* HEADER */
-/* AGGIUNGERE BOX SHADOW SOTTO */
 header, footer {
-  margin: 0 auto;
   width: 100%;
   color: #fff6f0;
 }
 
 header {
   background-color: #ff6900;
-  top: 0;
+  width: 100%;
+  height: 70px;
+  position: fixed;
   left: 0;
-  height: 60px;
+  top: 0;
+  z-index: 999;
   box-shadow: 0px 0px 15px rgba(0,0,0,.50);
 }
 
@@ -29,6 +30,7 @@ header {
   width: 90%;
   height: 100%;
   margin: 0 auto;
+  display: flex;
 }
 
 header .container, footer .container {
@@ -65,7 +67,8 @@ header ul.menu li {
 
 /* MAIN */
 main .container {
-  margin-top: 30px;
+  margin-top: 120px;
+  margin-bottom: 50px;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -170,28 +173,3 @@ footer .legal-info li, footer h4 {
 footer h2, footer h4 {
   margin-bottom: 8px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
