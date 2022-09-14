@@ -58,12 +58,13 @@ main .container {
   margin-top: 30px;
 }
 
- main .card {
-  position: relative;
- }
-
  main .article {
   width: 300px;
+ }
+
+ main .article .card {
+  position: relative;
+  height: 433px;
  }
 
  main .article img {
@@ -75,17 +76,46 @@ main .container {
 
  main .card .heart {
   display: block;
-  height: 30px;
-  width: 30px;
+  height: 35px;
+  width: 35px;
   background-color: #ffffff;
   color: #010000;
   position: absolute;
   top: 10px;
   right: 0;
   text-align: center;
-  line-height: 30px;
-
+  line-height: 35px;
+  font-size: 1.8rem;
  }
+  main .article .discount {
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+  }
+
+  main .article .discount span {
+    color: #fffffe;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+  }
+
+  main .article .discount span.amount {
+    background-color: #ff0000;
+  }
+
+  main .article .discount span.special {
+    background-color:#008000;
+  }
+
+
+
+
+
+
+
+
 
 
 
