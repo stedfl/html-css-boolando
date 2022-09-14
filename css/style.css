@@ -8,14 +8,19 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* HEADER */
 /* AGGIUNGERE BOX SHADOW SOTTO */
-header {
+header, footer {
   margin: 0 auto;
-  background-color: #ff6900;
-  height: 60px;
   width: 100%;
+  color: #fff6f0;
+}
+
+header {
+  background-color: #ff6900;
   top: 0;
   left: 0;
+  height: 60px;
   box-shadow: ;
 }
 
@@ -23,15 +28,15 @@ header {
   max-width: 1200px;
   width: 70%;
   height: 100%;
-  margin: auto;
+  margin: 0 auto;
 }
 
-header .container {
+header .container, footer .container {
   justify-content: space-between;
   align-items: center;
 }
 
-.container, header ul, header li {
+.container, ul, li {
   display: flex;
 }
 
@@ -40,44 +45,49 @@ header img {
   vertical-align: middle;
 }
 
-header li {
+li {
   list-style: none;
   padding-right: 8px;
-
 }
-header a {
+
+a {
   text-decoration: none;
   color: #fff6f0;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 header ul.menu li {
   font-weight: bold;
 }
 
+/* MAIN */
 main .container {
   margin-top: 30px;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
- main .article {
-  width: 300px;
+main .article {
+ width: 300px;
   margin:0 10px 30px;
- }
+}
 
- main .article .card {
-  position: relative;
-  height: 433px;
- }
+main .article .card {
+ position: relative;
+ height: 433px;
+}
 
- main .article img {
+main .article img {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
- }
+}
 
- main .card .heart {
+main .card .heart {
   display: block;
   height: 35px;
   width: 35px;
@@ -89,53 +99,81 @@ main .container {
   text-align: center;
   line-height: 35px;
   font-size: 1.8rem;
- }
-  main .article .discount {
-    position: absolute;
-    left: 0;
-    bottom: 40px;
-  }
+}
 
-  main .article .discount span {
-    color: #fffffe;
-    font-size: 0.8rem;
-    font-weight: bold;
-    padding: 5px;
-    text-align: center;
-  }
+main .article .discount {
+  position: absolute;
+  left: 0;
+  bottom: 40px;
+}
 
-  main .article .discount span.amount {
-    background-color: #ff0000;
-  }
+main .article .discount span {
+  color: #fffffe;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+}
 
-  main .article .discount span.special {
-    background-color:#008000;
-  }
+main .article .discount span.amount {
+  background-color: #ff0000;
+}
 
-  main .article .info h3 {
-    font-size: 1rem;
-  }
+main .article .discount span.special {
+  background-color:#008000;
+}
 
-  main .article .info .first {
-    color: #ff0000;
-    font-weight: bold;
-  }
+main .article .info h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
 
-  main .article .info .after {
-    text-decoration: line-through;
-  }
+main .article .info .first {
+  color: #ff0000;
+  font-weight: bold;
+}
 
-  main .card img.under {
-    display: none;
-  }
+main .article .info .after {
+  text-decoration: line-through;
+}
 
-  main .article .card .image:hover img.under {
-    display:block;
-  }
+main .card img.under {
+  display: none;
+}
 
-  main .article .card .heart:hover {
-    color: #ff0000;
-  }
+main .article .card .image:hover img.under {
+  display:block;
+}
+
+main .article .card .heart:hover {
+  color: #ff0000;
+}
+
+/* FOOTER */
+footer {
+  height: 90px;
+  bottom: 0;
+  left: 0;
+  background-color: #1a1a1a;
+  color: #fff6f0;
+  font-weight: bold;
+}
+
+footer h2, footer .social li {
+  font-size: 1.2rem;
+}
+
+footer .legal-info li, footer h4 {
+  font-size: 0.9rem;
+}
+
+footer h2, footer h4 {
+  margin-bottom: 8px;
+}
+
+
+
+
 
 
 
