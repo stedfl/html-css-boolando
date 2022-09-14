@@ -14,7 +14,6 @@ header {
   background-color: #ff6900;
   height: 60px;
   width: 100%;
-  position: fixed;
   top: 0;
   left: 0;
   box-shadow: ;
@@ -25,6 +24,9 @@ header {
   width: 90%;
   height: 100%;
   margin: auto;
+}
+
+header .container {
   justify-content: space-between;
   align-items: center;
 }
@@ -51,6 +53,41 @@ header a {
 header ul.menu li {
   font-weight: bold;
 }
+
+main .container {
+  margin-top: 30px;
+}
+
+ main .card {
+  position: relative;
+ }
+
+ main .article {
+  width: 300px;
+ }
+
+ main .article img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+ }
+
+ main .card .heart {
+  display: block;
+  height: 30px;
+  width: 30px;
+  background-color: #ffffff;
+  color: #010000;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  text-align: center;
+  line-height: 30px;
+
+ }
+
+
 
 
 
