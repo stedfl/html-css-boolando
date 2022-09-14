@@ -109,6 +109,21 @@ main .container {
     background-color:#008000;
   }
 
+  main .article .info h3 {
+    font-size: 1rem;
+  }
+
+  main .article .info .first {
+    color: #ff0000;
+    font-weight: bold;
+  }
+
+  main .article .info .after {
+    text-decoration: line-through;
+  }
+
+
+
 
 
 
